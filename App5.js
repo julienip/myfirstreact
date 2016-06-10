@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-let Mixin = InnerComponent => class extends React.Component
-{
+let Mixin = InnerComponent => class extends React.Component{
+  
   constructor(){
     super();
     this.update = this.update.bind(this);
